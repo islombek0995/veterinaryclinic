@@ -1,0 +1,179 @@
+
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(205, 205, 205);
+    flex-direction: column;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    vertical-align: middle;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .visually-hidden {
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+            clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+  
+  .container {
+    padding: 0 65px;
+    width: 1360px;
+  }
+  
+  .head {
+    margin: 0 auto;
+  }
+  
+  .head__logo {
+    position: absolute;
+    left: 65px;
+    top: 24px;
+    width: 178px;
+    height: 86px;
+    z-index: 5;
+  }
+  
+  .head__top-menu {
+    display: flex;
+    padding: 12px 65px;
+    margin-left: 213px;
+  }
+  
+  .head__top-item-title {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+  }
+  
+  .head__top-item {
+    display: flex;
+    margin-right: 106px;
+  }
+  
+  .head__top-item:last-child {
+    margin-right: 0;
+  }
+  
+  .head__down-item {
+    margin-left: 55px;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+  }
+  
+  .head__down-item:first-child {
+    margin-left: 0;
+  }
+  
+  .head__down-menu {
+    position: absolute;
+    display: block;
+    width: 100%;
+    display: flex;
+    background-color: #ffffff;
+    padding: 18px 65px 18px 358px;
+    height: 61px;
+  }
+  
+  .head__down-title {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+  }
+  
+  .head__down-right {
+    margin-left: 165px;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+  }
+  
+  .head__top-icon {
+    margin-right: 9px;
+    vertical-align: middle;
+    width: 14px;
+    height: 14px;
+  }
+  
+  .head__down-title {
+    border-bottom: 2px solid #F4FFAD transparent;
+  }
+  
+  .head__down-title:hover {
+    border-bottom: 3px solid #F4FFAD;
+  }
+  
+  .head__down-title:active {
+    border-bottom: 3px solid #F4FFAD;
+    opacity: 0.6;
+  }
+  
+  .head__top-item-title:hover {
+    color: #FDC367;
+  }
+  
+  .head__top-item-title:active {
+    color: #333333;
+    opacity: 0.6;
+  }
+  
+  .head__number-span {
+    display: inline-block;
+    height: 4px;
+    width: 4px;
+    margin-top: 6px;
+    margin-left: 9px;
+    margin-right: 9px;
+    border: 1px solid #FDC367;
+    background-color: #FDC367;
+  }
+  
+  .time {
+    margin-right: 17px;
+  }/*# sourceMappingURL=main.css.map */
